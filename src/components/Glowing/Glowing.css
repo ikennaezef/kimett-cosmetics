@@ -1,0 +1,111 @@
+#glowing {
+
+}
+
+.glowing__main {
+	display: flex;
+	justify-content: center;
+	max-width: 1050px;
+
+
+	background-image: url('../../images/leaves-bg-tilt-left.png');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.glowing__main div:first-child {
+	flex: 1 1 35%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.glowing__main div:first-child img {
+	width: 17rem;
+	object-fit: cover;
+}
+
+.glowing__main div:last-child {
+	flex: 1 1 65%;
+}
+
+.glowing__main div:last-child img {
+	width: 30rem;
+	object-fit: cover;
+}
+
+.glowing__main div:last-child .glowing__content {
+	transform: translateY(-7rem);
+}
+
+.glowing__main div:last-child .glowing__content h2 {
+	font-size: 4.3rem;
+	font-weight: 300;
+	font-family: 'Domine', serif;
+	margin-bottom: 1rem;
+	transform: translateX(-5rem);
+}
+
+.glowing__main div:last-child .glowing__content p {
+	font-size: 1.1rem;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.4;
+	width: 50%;
+}
+
+@media (max-width:  769px) {
+	.glowing__main div:first-child img {
+		width: 15rem;
+	}
+
+	.glowing__main div:last-child {
+		flex: 1 1 65%;
+	}
+
+	.glowing__main div:last-child img {
+		width: 23rem;
+	}
+
+	.glowing__main div:last-child .glowing__content {
+		transform: translateY(-5rem);
+	}
+}
+
+@media (max-width:  500px) {
+	.glowing__main div:first-child img {
+		width: 13rem;
+		max-width: 100%;
+	}
+
+	.glowing__main div:last-child img {
+		width: 18rem;
+	}
+
+	.glowing__main div:last-child .glowing__content {
+		transform: translateY(-1rem);
+	}
+
+	.glowing__main div:last-child .glowing__content h2 {
+		font-size: 3rem;
+		margin-bottom: 0.5rem;
+		transform: translateX(-2rem);
+	}
+
+	.glowing__main div:last-child .glowing__content p {
+		width: 90%;
+	}
+}
+
+@media (max-width:  400px) {
+	.glowing__main div:first-child {
+		display: none;
+	}
+
+	.glowing__main div:last-child .glowing__content {
+		transform: translateY(0);
+	}
+
+	.glowing__main div:last-child .glowing__content h2 {
+		transform: translateX(0);
+	}
+}

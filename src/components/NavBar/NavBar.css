@@ -1,0 +1,94 @@
+.nav-wrapper {	
+	border-bottom: 1px solid var(--brown-dark);
+	z-index: 100;
+}
+
+.nav {
+	padding: 0.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Domine', serif;
+	overflow: hidden;
+}
+
+.nav .cart-btn {
+	font-size: 1.1rem;
+	color: var(--brown-dark);
+	text-transform: uppercase;
+}
+
+.nav .logo img {
+	width: 5rem;
+}
+
+.nav .menu-btn {
+	background: transparent;
+	border: none;
+	outline: none;
+	font-family: inherit;
+	cursor: pointer;
+	display: inline-flex;
+	align-items: center;
+
+
+	font-size: 1.1rem;
+	color: var(--brown-dark);
+	text-transform: uppercase;
+}
+
+.nav .menu-btn .lines {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	margin-right: 0.5rem;
+}
+
+.nav .menu-btn .lines .line {
+	height: 2px;
+	width: 25px;
+	background-color: var(--brown-dark);
+	margin: 3px;
+}
+
+.nav .menu-btn.active .line-1 {
+	transform: rotate(45deg) translateX(20%);
+}
+
+.nav .menu-btn.active .line-2 {
+	transform: rotate(-45deg) translate(20%, -15%);
+}
+
+.nav-links {
+	z-index: 100;
+	position: absolute;
+	top: 3rem;
+	right: 0;
+	transform: translateX(110%);
+	width: 25rem;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	background-color: var(--bg);
+	list-style: none;
+	padding: 3rem 2rem;
+	transition: 0.5s ease;
+}
+
+.nav-links.active {
+	transform: translateX(0);
+}
+
+.nav-links .nav-link {
+	text-transform: uppercase;
+	font-family: 'Domine', serif;
+	font-size: 1.2rem;
+	display: inline-block;
+}
+
+.nav-links .nav-link a {
+	color: var(--brown-dark);
+}

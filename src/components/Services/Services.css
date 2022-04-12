@@ -1,0 +1,89 @@
+#services {
+	padding: 5rem 0;
+}
+
+#services .container {
+	display: grid;
+	max-width: 1050px;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-gap: 1rem;
+	background: url('../../images/leaves-bg.png') no-repeat top center/cover;
+	background-size: 50%;
+}
+
+#services .container div:first-child {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#services .container div:first-child img:first-child {
+	height: 10rem;
+	object-fit: cover;
+}
+
+#services .container div:first-child img:last-child {
+	height: 7rem;
+	object-fit: cover;
+}
+
+#services .container .content .title {
+	text-transform: uppercase;
+	font-size: 1rem;
+	font-family: 'Libre Baskerville', serif;
+	margin-bottom: 1rem;
+}
+
+#services .container .content .service {
+	font-size: 2rem;
+	font-family: 'Domine', serif;
+	margin-bottom: 2rem;
+}
+
+#services .container div:last-child {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#services .container div:last-child img {
+	height: 8rem;
+	object-fit: cover;
+	transform: translateX(-50%);
+}
+
+
+
+
+@media (max-width: 769px) {
+
+	#services .container div:last-child {
+		justify-content: flex-end;
+	}
+
+	#services .container div:last-child img {
+		transform: translateX(0);
+	}
+
+}
+
+@media (max-width: 500px) {
+
+	#services .container {
+		grid-template-columns: 1fr;
+		background-size: cover;
+	}
+
+	#services .container .content {
+		padding: 1rem 2rem;
+	}
+
+	#services .container div:first-child img:first-child {
+		margin-bottom: 1rem;
+	}
+
+	#services .container div:last-child {
+		display: none;
+	}
+
+}

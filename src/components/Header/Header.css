@@ -1,0 +1,69 @@
+.header {
+	min-height: calc(100vh - 3rem);
+	padding: 1rem;
+	border-bottom: 1px solid var(--brown-dark);
+	padding-top: 4rem;
+	background-image: url('../../images/fashion-leaves.png');
+	background-position: bottom right;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.header__content h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 4.5rem;
+	font-weight: 700;
+	line-height: 1;
+	color: var(--brown-light);
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+}
+
+.header__content h2 span {
+	color: transparent;
+	-webkit-text-stroke: 1px var(--brown-light);
+}
+
+.header__content p {
+	font-size: 1.1rem;
+	font-family: 'Domine', serif;
+	margin-bottom: 1.5rem;
+}
+
+.explore-btn {
+	width: 70px;
+	height: 70px;
+	border: 1px solid var(--brown-dark);
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: uppercase;
+	padding: 1rem;
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: var(--brown-dark);
+}
+
+
+
+@media (max-width: 769px) {
+	.header {
+		min-height: 70vh;
+		background-position: bottom left;
+		background-size: cover;
+	}
+
+	.explore-btn {
+		width: 60px;
+		height: 60px;
+		padding: 0.5rem;
+	}
+}
+
+@media (max-width: 500px) {
+	.header {
+		padding-top: 3rem;
+	}
+
+}

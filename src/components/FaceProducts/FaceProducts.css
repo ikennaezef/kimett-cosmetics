@@ -1,0 +1,112 @@
+#face__products .title {
+	font-size: 3.5rem;
+	font-family: 'Domine', serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#face__products .face__product {
+	margin-bottom: 7rem;
+}
+
+#face__products .face__product .product__banner {
+	min-height: 90vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 2rem;
+	padding-right: 2rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+#face__products .face__product__1 .product__banner {
+	background-image: url('../../images/glow.png');
+}
+
+#face__products .face__product__2 .product__banner {
+	background-image: url('../../images/product-creamy.png');
+}
+
+#face__products .face__product__3 .product__banner {
+	background-image: url('../../images/product-rose.png');
+}
+
+#face__products .face__product .product__title {
+	color: var(--bg);
+	font-size: 4rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    font-family: 'Domine', serif;
+    transform: translateX(-10rem);
+}
+
+#face__products .face__product__2 .product__title,
+#face__products .face__product__3 .product__title {
+	color: var(--brown-dark);
+}
+
+#face__products .face__product .product__content {
+	display: grid;
+	grid-template-columns: 3fr 2fr;
+}
+
+#face__products .face__product .product__content .product__details {
+	color: var(--brown-light);
+    padding-left: 2rem;
+    border-left: 1px solid var(--brown-light);
+    width: 80%;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
+
+
+@media (max-width: 769px) {
+	#face__products .title {
+		font-size: 3rem;
+	}
+
+	#face__products .face__product .product__banner {
+		min-height: 80vh;
+		padding-right: 0;
+		justify-content: center;
+	}
+
+	#face__products .face__product .product__title {
+		font-size: 3rem;
+	    transform: translateX(0);
+	}
+
+	#face__products .face__product .product__content {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+
+@media (max-width: 500px) {
+	#face__products .title {
+		font-size: 3rem;
+	}
+
+	#face__products .face__product .product__banner {
+		min-height: 60vh;
+		justify-content: flex-start;
+		padding-left: 1rem;
+	}
+
+	#face__products .face__product .product__title {
+		font-size: 2.8rem;
+	}
+
+	#face__products .face__product .product__content {
+		grid-template-columns: 1fr;
+		padding: 0 1rem;
+	}
+}
+
+
+	

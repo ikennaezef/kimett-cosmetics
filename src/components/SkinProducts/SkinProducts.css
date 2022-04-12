@@ -1,0 +1,202 @@
+#skin__products .title {
+	font-size: 3.5rem;
+	font-family: 'Domine', serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+#skin__products .skin__product {
+	margin-bottom: 7rem;
+}
+
+#skin__products .skin__product .product__banner {
+	min-height: 95vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 2rem;
+	padding-bottom: 2rem;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+#skin__products .skin__product .product__title {
+	font-size: 3.8rem;
+	font-weight: 300;
+	color: var(--bg);
+	font-family: 'Domine', serif;
+	padding-left: 15%;
+}
+
+#skin__products .skin__product__1 .product__content,
+ #skin__products .skin__product__2 .product__content {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	justify-items: center;
+}
+
+#skin__products .skin__product .product__details {
+	color: var(--brown-light);
+	padding-left: 2rem;
+	border-left: 1px solid var(--brown-light);
+	width: 70%;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1rem;
+	line-height: 1.3;
+	transform: translateX(20%);
+}
+
+#skin__products .skin__product__1 .product__banner {	
+	background-image: url('../../images/product-coffe.png');
+}
+
+#skin__products .skin__product__2 .product__banner {	
+	background-image: url('../../images/product-vera.png');
+}
+
+#skin__products .skin__product__3,
+ #skin__products .skin__product__4 {
+	display: flex;
+	gap: 2rem;
+	align-items: flex-end;
+}
+
+#skin__products .skin__product__3 .product__image, 
+ #skin__products .skin__product__4 .product__image {
+	flex: 1 1 40%;
+}
+
+#skin__products .skin__product__3 .product__image img,
+ #skin__products .skin__product__4 .product__image img {
+	width: 30rem;
+	width: 100%;
+	object-fit: cover;
+}
+
+#skin__products .skin__product__3 .product__content, 
+ #skin__products .skin__product__4 .product__content {
+	flex: 1 1 50%;
+	display: block;
+}
+
+#skin__products .skin__product__3 .product__title, 
+ #skin__products .skin__product__4 .product__title {
+	color: var(--brown-dark);
+	padding-left: 0;
+	transform: translateX(-9rem);
+}
+
+#skin__products .skin__product__3 .product__title {
+	margin-bottom: 2rem;
+	transform: translateX(-5rem);
+}
+
+ #skin__products .skin__product__4 .product__image {
+ 	order: 2;
+ }
+
+ #skin__products .skin__product__4 .product__content {
+ 	order: -1;
+ 	padding-left: 1rem;
+ }
+
+ #skin__products .skin__product__4 .product__title {
+ 	transform: translateX(0);
+ 	padding-left: 10%;
+ 	margin-bottom: 2rem;
+ }
+
+
+ @media (max-width: 769px) {
+	#skin__products .title {
+		font-size: 3.5rem;
+		transform: translateX(0);
+	}
+
+	#skin__products .skin__product__1 .product__content,
+	 #skin__products .skin__product__2 .product__content {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	#skin__products .skin__product .product__banner {
+		min-height: 80vh;
+	}
+
+	#skin__products .skin__product__3 .product__image img,
+ 	#skin__products .skin__product__4 .product__image img  {
+		width: 22rem;
+	}
+
+	#skin__products .skin__product .product__title {
+		font-size: 3rem;
+		padding-left: 2rem;
+	}
+
+	#skin__products .skin__product .product__details {
+		width: 90%;
+		padding-left: 1.5rem;
+		transform: translateX(0);
+	}
+}
+
+
+@media (max-width: 500px) {
+	#skin__products .title {
+		font-size: 3rem;
+	}
+
+	#skin__products .skin__product__1 .product__content,
+	 #skin__products .skin__product__2 .product__content {
+		grid-template-columns: 1fr;
+	}
+
+	#skin__products .skin__product .product__banner {
+		min-height: 45vh;
+	}
+
+	#skin__products .skin__product__3,
+	 #skin__products .skin__product__4 {
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	#skin__products .skin__product__3 .product__image img,
+ 	#skin__products .skin__product__4 .product__image img  {
+		width: 99vw;
+	}
+
+	#skin__products .skin__product .product__title {
+		font-size: 2.8rem;
+		padding-left: 2rem;
+	}
+
+	#skin__products .skin__product .product__details {
+		width: 90%;
+		padding-left: 1.5rem;
+		transform: translateX(0);
+	}
+
+	#skin__products .skin__product__3 .product__content, 
+	 #skin__products .skin__product__4 .product__content {
+		padding: 0 1rem;
+	}
+
+	#skin__products .skin__product__3 .product__title, 
+	 #skin__products .skin__product__4 .product__title {
+		transform: translateX(0);
+	}
+
+	#skin__products .skin__product__3 .product__title {
+		transform: translateX(0);
+	}
+
+	 #skin__products .skin__product__4 .product__image {
+	 	order: -1;
+	 }
+
+	 #skin__products .skin__product__4 .product__content {
+	 	order: 2;
+	 }
+}

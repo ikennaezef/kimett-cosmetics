@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap');
+
+
+:root {
+  --bg: #faece9;
+  --brown-light: #946245;
+  --brown-dark: #381802;
+  --footer-bg: #f7e1d2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  font-family: 'Domine', 'Libre Baskerville' serif;
+}
+
+html, body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.App {
+  min-height: 100vh;
+  color: var(--brown-dark);
+  background: url('./images/noise-bg.png') no-repeat center center/cover;
+  background-color: var(--bg);
+  animation: noise 0.2s infinite linear;
+}
+
+@keyframes noise {
+  0% {
+    background-position: left;
+  }
+
+  100% {
+    background-position: right;
+  }
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media(max-width: 769px) {
+  html {
+    font-size: 14px
+  }
+
+  .container {
+    padding: 0 0.5rem;
+  }
+}
+
