@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3fb4f16d.chunk.css",
+    "main.js": "/static/js/main.a49422ff.chunk.js",
+    "main.js.map": "/static/js/main.a49422ff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ec1c99ba.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ec1c99ba.js.map",
+    "static/js/2.c5c7ea80.chunk.js": "/static/js/2.c5c7ea80.chunk.js",
+    "static/js/2.c5c7ea80.chunk.js.map": "/static/js/2.c5c7ea80.chunk.js.map",
+    "static/js/3.ca35b8e3.chunk.js": "/static/js/3.ca35b8e3.chunk.js",
+    "static/js/3.ca35b8e3.chunk.js.map": "/static/js/3.ca35b8e3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.3fb4f16d.chunk.css.map": "/static/css/main.3fb4f16d.chunk.css.map",
+    "static/js/2.c5c7ea80.chunk.js.LICENSE.txt": "/static/js/2.c5c7ea80.chunk.js.LICENSE.txt",
+    "static/media/Banner.52640adf.svg": "/static/media/Banner.52640adf.svg",
+    "static/media/afro-hair.36cbde88.png": "/static/media/afro-hair.36cbde88.png",
+    "static/media/aloevera.b4c5c9ea.png": "/static/media/aloevera.b4c5c9ea.png",
+    "static/media/beautiful-african-woman-2.87a9f036.png": "/static/media/beautiful-african-woman-2.87a9f036.png",
+    "static/media/beautiful-african-woman.39c96ac2.png": "/static/media/beautiful-african-woman.39c96ac2.png",
+    "static/media/Mission.css": "/static/media/beautiful-woman.9e756673.png",
+    "static/media/black-skin-beauty-small.06bbfce7.png": "/static/media/black-skin-beauty-small.06bbfce7.png",
+    "static/media/coffee.414501f5.png": "/static/media/coffee.414501f5.png",
+    "static/media/Header.css": "/static/media/fashion-leaves.9c7d310e.png",
+    "static/media/FaceProducts.css": "/static/media/product-rose.2f789de6.png",
+    "static/media/Glowing.css": "/static/media/leaves-bg-tilt-left.a910476c.png",
+    "static/media/Products.css": "/static/media/leaves-bg-tilt-right.5ee30172.png",
+    "static/media/Services.css": "/static/media/leaves-bg.5ba3d606.png",
+    "static/media/logo.e18e1987.svg": "/static/media/logo.e18e1987.svg",
+    "static/media/model.626bc09d.png": "/static/media/model.626bc09d.png",
+    "static/media/App.css": "/static/media/noise-bg.1f259e4c.png",
+    "static/media/SkinProducts.css": "/static/media/product-vera.c97fc68b.png",
+    "static/media/ribbon.055aa16f.svg": "/static/media/ribbon.055aa16f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ec1c99ba.js",
+    "static/js/2.c5c7ea80.chunk.js",
+    "static/css/main.3fb4f16d.chunk.css",
+    "static/js/main.a49422ff.chunk.js"
+  ]
+}
